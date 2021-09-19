@@ -8,19 +8,15 @@ namespace depositeCalc
         {
             Console.WriteLine("Input the ammount");
             double deposit = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("Input the deposit period");
+            Console.WriteLine("Input the deposit period in months");
             int period = int.Parse(Console.ReadLine());
             Console.WriteLine("Input the yearly interest");
-            double interestRate = double.Parse(Console.ReadLine());
-            double interestAmmount = deposit / interestRate*100;
-            double monthlyInterest = interestAmmount / 12;
-            double ammount = deposit + period * monthlyInterest;
+            double yearlyInterestRate = double.Parse(Console.ReadLine());
+            yearlyInterestRate = yearlyInterestRate / 100;
+            double yearlyInterest = deposit * yearlyInterestRate;
+            double monthlyInterest = yearlyInterest / 12;
+            double ammount = deposit + monthlyInterest*period;
             Console.WriteLine(ammount);
         }
     }
 }
-
-
-
-//percentage = (yourNumber / totalNumber) * 100;
