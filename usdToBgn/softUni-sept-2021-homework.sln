@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW2Task3-time-plus-15-minut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW2Task4-babyToysStore", "..\HW2Task4-babyToysStore\HW2Task4-babyToysStore.csproj", "{AC23E6C1-CE53-44EB-813F-F632999834E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2Task5-GodzillaVsKong", "..\godzillaVsKong\HW2Task5-GodzillaVsKong.csproj", "{8E700225-7CEF-4FF3-8B96-165B615E57CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW2Task5-GodzillaVsKong", "..\godzillaVsKong\HW2Task5-GodzillaVsKong.csproj", "{8E700225-7CEF-4FF3-8B96-165B615E57CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2Task6-worldRecord", "..\HW2Task6-worldRecord\HW2Task6-worldRecord.csproj", "{145C3DA5-3ACF-475E-B3ED-1C9C398E6FF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW2Task6-worldRecord", "..\HW2Task6-worldRecord\HW2Task6-worldRecord.csproj", "{145C3DA5-3ACF-475E-B3ED-1C9C398E6FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2Task7-Shopping", "..\HW2Task7-Shopping\HW2Task7-Shopping.csproj", "{FD22D98D-FC84-4E75-ACAD-3A9FD15235F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{145C3DA5-3ACF-475E-B3ED-1C9C398E6FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{145C3DA5-3ACF-475E-B3ED-1C9C398E6FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{145C3DA5-3ACF-475E-B3ED-1C9C398E6FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD22D98D-FC84-4E75-ACAD-3A9FD15235F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD22D98D-FC84-4E75-ACAD-3A9FD15235F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD22D98D-FC84-4E75-ACAD-3A9FD15235F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD22D98D-FC84-4E75-ACAD-3A9FD15235F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
