@@ -13,17 +13,19 @@ namespace HW2Task6_worldRecord
             double result;
             double result2;
             double output;
-<<<<<<< HEAD
 
             if (distance > 14)
             {
-                timeInSeconds = timeInSeconds + (intermedeateTime * 12.5);
-                result = timeInSeconds * distance;
+                result2 = Math.Floor(distance / 15);
+                intermedeateTime = distance * timeInSeconds;
+                Math.Round(intermedeateTime, mode: MidpointRounding.AwayFromZero);
+                result = intermedeateTime + (result2 * 12.5);
+                //result = timeInSeconds * distance;
+
             }
             else
             {
                 result = timeInSeconds * distance;
-                Math.Round(result,2);
             }
             if (result < worldRecord)
             {
@@ -32,10 +34,10 @@ namespace HW2Task6_worldRecord
             }
             else
             {
-                output = worldRecord - result;
+                //output = Math.Floor(result - worldRecord);
+                output = result - worldRecord;
                 Console.WriteLine($"No, he failed! He was {output:f2} seconds slower.");
             }
         }
     }
 }
- 
